@@ -31,13 +31,19 @@ body{
 }
 
 .profile-pic {
-    /* width: 8rem; */
-    height:10rem;
-    border-radius: 0%;
-    border: 0px solid #fff; /* optional border */
-    object-fit: cover;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    width: 80px;          /* square width */
+    height: 80px;         /* square height */
+    border-radius: 0%;    /* square corners */
+    border: 2px solid #fff; /* optional border */
+    object-fit: cover;    /* image fit properly */
+    
+    /* Position in header corner */
+    position: absolute;   /* absolute positioning */
+    top: 10px;            /* distance from top of header */
+    right: 10px;          /* distance from right corner */
+
+    /* Optional spacing */
+    margin: 0;.
 }
 
 .name {
@@ -314,5 +320,6 @@ body{
     }
 
 }
+
 
 
