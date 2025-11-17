@@ -33,7 +33,7 @@ body{
 .profile-pic {
     /* width: 8rem; */
     height:10rem;
-    border-radius: 5%;
+    border-radius: 0%;
     border: 0px solid #fff; /* optional border */
     object-fit: cover;
     margin-bottom: 10px;
@@ -314,4 +314,5 @@ body{
     }
 
 }
+
 
